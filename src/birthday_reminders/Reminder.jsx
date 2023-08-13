@@ -21,6 +21,7 @@ const Reminder = () => {
     <>
       <div className="container col-lg-6 m-auto card p-4">
         <h1 className="display-1 text-center p-3">
+          hello
           {people.length} birthdays today
         </h1>
         {people.map((birthdays) => {
