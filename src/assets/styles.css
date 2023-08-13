@@ -1,0 +1,18 @@
+body{
+    background: linear-gradient(to right, pink,hotpink  );
+    animation: move 4s linear infinite alternate-reverse;
+}
+
+/* .beat{
+    animation: beat 1s linear infinite alternate-reverse;
+
+} */
+
+@keyframes beat {
+    from{
+        scale:1
+    }
+    to{
+        scale:1.4
+    }
+}
